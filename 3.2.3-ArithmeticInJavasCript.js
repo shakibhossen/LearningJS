@@ -107,3 +107,4 @@ console.log(Number.MAX_SAFE_INTEGER); //(2^53-1)
 // format only has 52 bits to represent the mantissa, and the lowest bit has a significance of 2-52.Aug 21, 2023
 
 console.log(Number.EPSILON);
+console.log("rafidul is joss");
