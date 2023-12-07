@@ -108,3 +108,12 @@ console.log(Number.MAX_SAFE_INTEGER); //(2^53-1)
 
 console.log(Number.EPSILON);
 console.log("rafidul is joss");
+
+let a = 1;
+let b = 2;
+let c;
+{
+  c = 3 - (a = a + b);
+}
+console.log(a);
+console.log(c);
